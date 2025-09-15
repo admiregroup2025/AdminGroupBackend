@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Pull Latest Code') {
             steps {
-                git url: 'https://github.com/admiregroup2025/Admire-Holidays-backend.git', branch: 'main'
+                git url: 'https://github.com/admiregroup2025/AdminGroupBackend.git', branch: 'main'
             }
         }
 
